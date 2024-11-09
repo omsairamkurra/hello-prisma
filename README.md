@@ -80,3 +80,4 @@ Nest is [MIT licensed](LICENSE).
 - migration - npx prisma migrate dev --name init
 - Install - npm install @prisma/client
 - create prisma.service.ts
+- npx prisma generate
