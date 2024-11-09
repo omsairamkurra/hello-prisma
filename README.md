@@ -71,3 +71,12 @@ Nest is an MIT-licensed open source project. It can grow thanks to the sponsors 
 ## License
 
 Nest is [MIT licensed](LICENSE).
+
+## Prisma
+- Install - npm install prisma --save-dev
+- Initial - npx prisma init
+- In env - DATABASE_URL="mysql://username:password@localhost:3306/schemaName"
+- create models with user.prisma and post.prisma names
+- migration - npx prisma migrate dev --name init
+- Install - npm install @prisma/client
+- create prisma.service.ts
